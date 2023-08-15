@@ -80,5 +80,5 @@ const pAequorFactory = (specimanNum, dna) => {
  let testSample = pAequorFactory(1,mockUpStrand());
  let test2Sample = pAequorFactory(2,mockUpStrand());
  testSample.compareDNA(test2Sample);
- console.log(testSample.willLikelySurvive());
+ console.log(`The sample will survive `+ testSample.willLikelySurvive());
  
